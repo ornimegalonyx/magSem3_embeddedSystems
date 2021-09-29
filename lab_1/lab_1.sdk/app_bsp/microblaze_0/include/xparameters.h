@@ -228,7 +228,7 @@
 #define XPAR_MICROBLAZE_0_USE_PCMP_INSTR 0
 #define XPAR_MICROBLAZE_0_USE_REORDER_INSTR 1
 #define XPAR_MICROBLAZE_0_USE_STACK_PROTECTION 0
-#define XPAR_MICROBLAZE_0_COMPONENT_NAME embedded_system_microblaze_0_1
+#define XPAR_MICROBLAZE_0_COMPONENT_NAME design_1_microblaze_0_0
 #define XPAR_MICROBLAZE_0_EDK_IPTYPE PROCESSOR
 #define XPAR_MICROBLAZE_0_EDK_SPECIAL microblaze
 #define XPAR_MICROBLAZE_0_G_TEMPLATE_LIST 0
@@ -451,7 +451,7 @@
 #define XPAR_MICROBLAZE_USE_PCMP_INSTR 0
 #define XPAR_MICROBLAZE_USE_REORDER_INSTR 1
 #define XPAR_MICROBLAZE_USE_STACK_PROTECTION 0
-#define XPAR_MICROBLAZE_COMPONENT_NAME embedded_system_microblaze_0_1
+#define XPAR_MICROBLAZE_COMPONENT_NAME design_1_microblaze_0_0
 #define XPAR_MICROBLAZE_EDK_IPTYPE PROCESSOR
 #define XPAR_MICROBLAZE_EDK_SPECIAL microblaze
 #define XPAR_MICROBLAZE_G_TEMPLATE_LIST 0
@@ -570,7 +570,7 @@
 /******************************************************************/
 
 /* Definitions for driver UARTLITE */
-#define XPAR_XUARTLITE_NUM_INSTANCES 2
+#define XPAR_XUARTLITE_NUM_INSTANCES 1
 
 /* Definitions for peripheral AXI_UARTLITE_0 */
 #define XPAR_AXI_UARTLITE_0_BASEADDR 0x40600000
@@ -580,16 +580,6 @@
 #define XPAR_AXI_UARTLITE_0_USE_PARITY 0
 #define XPAR_AXI_UARTLITE_0_ODD_PARITY 0
 #define XPAR_AXI_UARTLITE_0_DATA_BITS 8
-
-
-/* Definitions for peripheral MDM_1 */
-#define XPAR_MDM_1_BASEADDR 0x41400000
-#define XPAR_MDM_1_HIGHADDR 0x41400FFF
-#define XPAR_MDM_1_DEVICE_ID 1
-#define XPAR_MDM_1_BAUDRATE 0
-#define XPAR_MDM_1_USE_PARITY 0
-#define XPAR_MDM_1_ODD_PARITY 0
-#define XPAR_MDM_1_DATA_BITS 0
 
 
 /******************************************************************/
@@ -602,15 +592,6 @@
 #define XPAR_UARTLITE_0_USE_PARITY 0
 #define XPAR_UARTLITE_0_ODD_PARITY 0
 #define XPAR_UARTLITE_0_DATA_BITS 8
-
-/* Canonical definitions for peripheral MDM_1 */
-#define XPAR_UARTLITE_1_DEVICE_ID XPAR_MDM_1_DEVICE_ID
-#define XPAR_UARTLITE_1_BASEADDR 0x41400000
-#define XPAR_UARTLITE_1_HIGHADDR 0x41400FFF
-#define XPAR_UARTLITE_1_BAUDRATE 0
-#define XPAR_UARTLITE_1_USE_PARITY 0
-#define XPAR_UARTLITE_1_ODD_PARITY 0
-#define XPAR_UARTLITE_1_DATA_BITS 0
 
 
 /******************************************************************/

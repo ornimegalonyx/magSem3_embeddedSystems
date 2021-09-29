@@ -1,4 +1,0 @@
-NumberHits:0
-Timestamp: Wed Sep 29 00:36:17 UTC 2021
-VLNV: xilinx.com:ip:mdm:3.2
-SynthRuntime: 80
